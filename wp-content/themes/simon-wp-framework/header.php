@@ -34,6 +34,7 @@
 	<script src="<?php bloginfo('template_url'); ?>/menu.js"></script>
 	<script type="text/javascript">var templateDir = "<?php bloginfo('template_directory') ?>";</script>
 	<script src="<?php bloginfo('template_url'); ?>/to-top-jquery/to-top-jquery.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
 </head>
 <body <?php body_class(); ?>>
