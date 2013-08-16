@@ -22,9 +22,13 @@
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/mediaqueries.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/boilerplate.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/grid.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/typography.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/core.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/devices.css" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>

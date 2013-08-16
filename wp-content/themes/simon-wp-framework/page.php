@@ -22,10 +22,40 @@
 			}
 		?>
       <?php the_content(); ?>
+	  <?php
+		if(get_field('map_coodinates')){
+				$coords = get_field('map_coodinates');
+		?>
+			<script>
+				var map;
+				function initialize() {
+					var mapOptions = {
+						zoom: 16,
+						center: new google.maps.LatLng(<?php echo $coords; ?>),
+						disableDefaultUI: true,
+						panControl: false,
+						zoomControl: true,
+						scaleControl: false,
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
+					map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
+					var marker = new google.maps.Marker({
+					position: mapOptions['center'],
+					map: map,
+					});
+				}
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div class="flex_100">
+				<div class="box">
+					<div id='googleMap'></div>
+				</div>
+				<div class='clear'></div>
+			</div>
+		<?php	}  ?>
       <?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
     </div>
   </div>
 </div>
 <?php endwhile; endif; ?>
-<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
