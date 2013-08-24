@@ -61,6 +61,7 @@ Template Name Posts: Weekly Trade View
 								}
 							?>
 							</span>
+							<?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
 						</h4>
 						 <?php the_content(); ?>
 					</div>

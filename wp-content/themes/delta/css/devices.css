@@ -1,9 +1,13 @@
-@media screen and (max-width:990px) {
+@media screen and (max-width:1150px) {
 	.outer_wrap{
 		width:90%;
 	}
 	
 	.cols .flex_25{
+		width:50%;
+	}
+	
+	.cols .flex_75{
 		width:50%;
 	}
 	
@@ -21,6 +25,10 @@
 
 @media screen and (max-width:690px) {
 	.cols .flex_25{
+		width:100%;
+	}
+	
+	.cols .flex_75{
 		width:100%;
 	}
 	

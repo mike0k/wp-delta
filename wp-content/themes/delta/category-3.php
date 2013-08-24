@@ -62,15 +62,19 @@
 		<div <?php post_class() ?>>
 			<div class="webcast">
 				<div class="flex_50"> 
-					<h4 i class="entry-title"> Delta Economics<span style="font-weight:normal;"> | Webcast | Coming Soon</span></h4>
-					<div class="entry">
-						<p>New bi-weekly webcats uploading soon.</p>
+					<div class="box">
+						<h4 i class="entry-title"> Delta Economics<span style="font-weight:normal;"> | Webcast | Coming Soon</span></h4>
+						<div class="entry">
+							<p>New bi-weekly webcats uploading soon.</p>
+						</div>
 					</div>
 				</div>
 				<div class="flex_50 video"> 
 					<div class="videoBox"> 
-						<img src="<?php bloginfo('template_directory'); ?>/images/delta_logo.jpg" style="display:block; height:72px;" />
-						<h4 i class="entry-title borderTop" style="display:inline-block;"> Delta Economics<span style="font-weight:normal;"> | Webcast | Coming Soon</span></h4>
+						<div style="padding:30px;">
+							<img src="<?php bloginfo('template_directory'); ?>/images/delta_logo.jpg" style="display:block; height:72px;" />
+							<h4 i class="entry-title borderTop" style="display:inline-block;"> Delta Economics<span style="font-weight:normal;"> | Webcast | Coming Soon</span></h4>
+						</div>
 					</div>
 				</div>
 				<div class="clear"></div>

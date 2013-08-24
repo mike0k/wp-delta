@@ -37,8 +37,8 @@ Template Name: Contact Page
 								google.maps.event.addDomListener(window, 'load', initialize);
 							</script>
 							<div class="flex_100">
-								<div class="box">
-									<div id='googleMap'></div>
+								<div class="box googleMap">
+									<div id='googleMap' style="height:480px;"></div>
 								</div>
 								<div class='clear'></div>
 							</div>

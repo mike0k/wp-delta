@@ -16,12 +16,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+//define('DB_NAME', 'deltaeco_delta');
 define('DB_NAME', 'delta');
 
 /** MySQL database username */
+//define('DB_USER', 'deltaeco_delta');
 define('DB_USER', 'root');
 
 /** MySQL database password */
+//define('DB_PASSWORD', 'leedsunited');
 define('DB_PASSWORD', '');
 
 /** MySQL hostname */

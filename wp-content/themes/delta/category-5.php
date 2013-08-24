@@ -47,7 +47,10 @@
 						?>
 						<div class="box qtfPost_<?php echo $post->ID; ?>" <?php if($i!=0){echo ' style="display:none;" ';} ?>>
 							<?php print_head_image($post->ID); ?>
-							<h4><?php the_field('location', $post->ID);	?> | <?php the_field('date', $post->ID);	?></h4>
+							<h4>
+								<?php the_field('location', $post->ID);	?> | <?php the_field('date', $post->ID);	?>
+								<?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
+							</h4>
 							<?php the_content(); ?>
 						</div>
 						<?php

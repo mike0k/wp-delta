@@ -164,4 +164,11 @@ function simonwpframework_widgets_init() {
 }
 add_action ( 'widgets_init', 'simonwpframework_widgets_init' );
 
+add_action( 'admin_menu', 'my_remove_menu_pages' );
+function my_remove_menu_pages() {
+	remove_menu_page('edit-comments.php');	
+	remove_menu_page('tools.php');	
+}
+
+
 ?>

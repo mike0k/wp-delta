@@ -15,9 +15,13 @@ Template Name Posts: Quarterly Trade Forecasts
 			$posts = get_posts($args); 
 			if(!empty($posts)){
 				foreach($posts as $post){
+					$active = '';
+					if($post->ID==$postId){
+						$active= ' active ';
+					}
 					?>
 					<li>
-						<a href="<?php the_permalink($post->ID); ?>">
+						<a class="<?php echo $active; ?>" href="<?php the_permalink($post->ID); ?>">
 							<?php the_field('location', $post->ID);	?>
 							<br />
 							Read More | Click here
@@ -43,7 +47,10 @@ Template Name Posts: Quarterly Trade Forecasts
 			<div class="entry">
 				<div class="box">
 					<?php print_head_image();?>
-					<h4><?php the_field('location');	?> | <?php the_field('date');	?></h4>
+					<h4>
+						<?php the_field('location');	?> | <?php the_field('date');	?>
+						<?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
+					</h4>
 					<?php 
 						the_content(); 
 						wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); 

@@ -40,6 +40,12 @@
 	<script src="<?php bloginfo('template_url'); ?>/to-top-jquery/to-top-jquery.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/cycle.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	
+	<!--[if lt IE 9 ]> 
+		<style type="text/css">
+			a{font-family:Arial, sans-serif;}
+		</style>
+	<![endif]-->
 
 </head>
 <body <?php body_class(); ?>>
