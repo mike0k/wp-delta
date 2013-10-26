@@ -1,0 +1,11 @@
+[22-Aug-2013 11:02:32 UTC] PHP Warning:  require(/home/demo/public_html/wp-includes/version.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/demo/public_html/wp-settings.php on line 23
+[22-Aug-2013 11:02:32 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/demo/public_html/wp-includes/version.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/demo/public_html/wp-settings.php on line 23
+[28-Aug-2013 20:06:32 UTC] PHP Warning:  explode() expects parameter 3 to be long, string given in /home/demo/public_html/wp-content/themes/delta/page-contact.php on line 18
+[28-Aug-2013 20:55:35 UTC] PHP Fatal error:  Call to undefined function atr_replace() in /home/demo/public_html/wp-content/themes/delta/page-contact.php on line 18
+[28-Aug-2013 23:17:51 UTC] PHP Fatal error:  Call to undefined function get_ID() in /home/demo/public_html/wp-content/themes/delta/single-staff.php on line 5
+[30-Aug-2013 21:29:16 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/demo/public_html/wp-content/themes/delta/page-home.php on line 76
+[31-Aug-2013 23:02:30 UTC] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/demo/public_html/wp-content/themes/delta/page-sitemap.php on line 29
+[31-Aug-2013 23:03:01 UTC] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/demo/public_html/wp-content/themes/delta/page-sitemap.php on line 29
+[31-Aug-2013 23:03:03 UTC] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/demo/public_html/wp-content/themes/delta/page-sitemap.php on line 29
+[31-Aug-2013 23:25:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/demo/public_html/wp-content/themes/delta/page-sitemap.php on line 25
+[31-Aug-2013 23:26:46 UTC] PHP Fatal error:  Call to undefined function get_title() in /home/demo/public_html/wp-content/themes/delta/page-sitemap.php on line 24
