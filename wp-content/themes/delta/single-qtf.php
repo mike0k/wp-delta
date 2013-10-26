@@ -34,11 +34,11 @@ Template Name Posts: Quarterly Trade Forecasts
 		</ul>	
 		<div class="box">
 			<h4>Looking for more?</h4>
-			<p>For archived content please contact our analytical team.</p>
+			<p class="bottomSpacing">For archived content please contact our analytical team.</p>
 			<a href="<?php echo get_permalink(14); ?>">Contact us | Click here</a>
 		</div>
 	</div>
-	<div class="flex_75">
+	<div class="flex_75 qtfPosts">
 		<?php
 			$post = get_post($postId);
 			setup_postdata($post);

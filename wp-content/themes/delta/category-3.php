@@ -16,7 +16,7 @@
 			<div class="webcast">
 				<div class="flex_50 description"> 
 					<div class="box">
-						<h4 id="post-<?php the_ID(); ?>"  class="entry-title">
+						<h4 class="entry-title">
 							<?php
 								$title = '';
 								for($i=1; $i<=3; $i++){
@@ -24,14 +24,12 @@
 										if(empty($title)){
 											$title = get_field('title_part_'.$i);
 										}else{
-											$title .= '<span style="font-weight:normal;"> | '.get_field('title_part_'.$i).'</span>';
+											$title .= '<span style="font-family:\'roman\',Helvetica,sans-serif;"> | '.get_field('title_part_'.$i).'</span>';
 										}
 									}
 								}
 							?>
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-								<?php echo $title; ?>
-							</a>
+							<?php echo $title; ?>
 						</h4>
 						<div class="entry">
 							<?php the_content(); ?>
@@ -61,19 +59,18 @@
 	?>
 		<div <?php post_class() ?>>
 			<div class="webcast">
-				<div class="flex_50"> 
+				<div class="flex_50 description"> 
 					<div class="box">
-						<h4 i class="entry-title"> Delta Economics<span style="font-weight:normal;"> | Webcast | Coming Soon</span></h4>
+						<h4 i class="entry-title"> Delta Economics<span style="font-family:\'roman\',Helvetica,sans-serif;"> | Webcast | Coming Soon</span></h4>
 						<div class="entry">
-							<p>New bi-weekly webcats uploading soon.</p>
+							<p>New bi-weekly Webcasts uploading soon.</p>
 						</div>
 					</div>
 				</div>
 				<div class="flex_50 video"> 
 					<div class="videoBox"> 
-						<div style="padding:30px;">
-							<img src="<?php bloginfo('template_directory'); ?>/images/delta_logo.jpg" style="display:block; height:72px;" />
-							<h4 i class="entry-title borderTop" style="display:inline-block;"> Delta Economics<span style="font-weight:normal;"> | Webcast | Coming Soon</span></h4>
+						<div class="empty">
+							<img src="<?php bloginfo('template_directory'); ?>/images/webcasts_holdingImage.jpg" />
 						</div>
 					</div>
 				</div>
@@ -95,6 +92,8 @@
 			<div class="box">
 				<h4>Looking for more?</h4>
 				<p>For archived content please contact our analytical team.</p>
+			</div>
+			<div class="subBox">
 				<a href="<?php echo get_permalink(14); ?>">Contact us | <span class="clickHere">Click here</span></a>
 			</div>
 		</div>

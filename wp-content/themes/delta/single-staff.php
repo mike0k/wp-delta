@@ -2,6 +2,8 @@
 /*
 Template Name Posts: Staff Member
 */
+$postId =  get_the_ID();
+header('Location: http://demo.deltaeconomics.com/category/our-team/#post-'.$postId);
 ?>
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -12,16 +14,14 @@ Template Name Posts: Staff Member
 				<div class="box">
 						<h4 id="post-<?php the_ID(); ?>"  class="entry-title">
 							<?php if(get_field('name') && get_field('job_title')){ ?>
-								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 									<?php echo get_field('name'); ?> 
 									<span style="font-weight:normal;">| <?php echo get_field('job_title'); ?></span>
-								</a>
 							<?php }elseif( get_field('name')){ ?>
-									<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_field('name'); ?></a>
+								<?php echo get_field('name'); ?>
 							<?php }elseif ( get_the_title() == '' ) { ?>
-								<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link">Staff Member</a>
+								Staff Member
 							<?php } else { ?>
-								<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+								<?php the_title(); ?>
 							<?php } ?>
 						</h4>
 					<div class="entry">

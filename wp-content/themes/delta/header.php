@@ -21,6 +21,7 @@
 		<?php wp_title('|'); ?>
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
@@ -28,24 +29,26 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/grid.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/typography.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/core.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/devices.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/sitemap.css" />
+	<!--<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/devices.css" />-->
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wp_enqueue_script("jquery"); ?>
 	<?php wp_head(); ?>
 
-	<script src="<?php bloginfo('template_url'); ?>/menu.js"></script>
 	<script type="text/javascript">var templateDir = "<?php bloginfo('template_directory') ?>";</script>
-	<script src="<?php bloginfo('template_url'); ?>/to-top-jquery/to-top-jquery.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/cycle.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	
-	<!--[if lt IE 9 ]> 
-		<style type="text/css">
-			a{font-family:Arial, sans-serif;}
-		</style>
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/ie.css" />
 	<![endif]-->
+	 <!--[if !IE]><!--><script>  
+    if (/*@cc_on!@*/false) {  
+        document.documentElement.className+=' ie10';  
+    }  
+    </script><!--<![endif]-->  
 
 </head>
 <body <?php body_class(); ?>>
@@ -54,7 +57,7 @@
 		<div id="header" class="">
 			<h1>
 				<a href="<?php echo home_url(); ?>/">
-					<img src="<?php bloginfo('template_directory'); ?>/images/delta_logo.jpg" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/delta_logo_small.jpg" />
 				</a>
 			</h1>
 		</div>

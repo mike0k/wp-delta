@@ -3,8 +3,8 @@ Contributors: madpixels, straightforward
 Donate link:
 Tags: chart, charts, charting, graph, graphs, graphing, visualisation, visualise data, visualization, visualize data, HTML5, canvas, pie chart, line chart, bar chart, column chart, gauge chart, area chart, scatter chart, candlestick chart, geo chart, google visualization api
 Requires at least: 3.5
-Tested up to: 3.6
-Stable tag: 1.2.0
+Tested up to: 3.6.1
+Stable tag: 1.3.0
 License: GPL v2.0 or later
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -42,6 +42,12 @@ Read how to [create a chart](http://visualizer.madpixels.net/knowledgebase/how-c
 1. Upload the files to the `/wp-content/plugins/visualizer/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
+== Frequently Asked Questions ==
+
+= Shortcode does not turn into graph =
+
+Pay attention that to turn your shortcodes into graphs, your theme has to have `<?php wp_footer(); ?>` call at the bottom of **footer.php** file.
+
 == Screenshots ==
 
 1. Chart type selection
@@ -51,6 +57,15 @@ Read how to [create a chart](http://visualizer.madpixels.net/knowledgebase/how-c
 5. Charts library
 
 == Changelog ==
+
+= 1.3.0 =
+* Implemented ability to set number and date formatters
+* Implemented ability to select transparent background for a chart
+* Fixed JS bugs which appear when post type editor support is disabled
+* Fixed issue with NULL values for numeric series
+* Fixed invalid charts rendering at "Add Media" library
+* Fixed compatibility issue with another Google API related plugins
+* Added "rate the plugin" box
 
 = 1.2.0 =
 * Implemented minor grid lines settings.

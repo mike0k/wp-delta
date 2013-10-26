@@ -19,30 +19,48 @@
  
  function print_columns($gridClass, $start, $end, $id=null){
 	?>
-		<div class="cols">
-			<?php
-				for($i=$start; $i<=$end; $i++){
-					if(get_field('box_'.$i, $id)){
-					?>
-						<div class="<?php echo $gridClass; ?> ">
-							<div>
-								<div class="box minBoxHeight">
-									<?php echo get_field("box_".$i, $id); ?>
-									<div class="clear"></div>
-								</div>
-								<?php if(get_field('sub_box_'.$i, $id)){ ?>
+		<div class="colLen<?php echo ($end-$start)+1; ?>">
+			<div class="cols">
+				<?php
+					for($i=$start; $i<=$end; $i++){
+						if(get_field('box_'.$i, $id)){
+						?>
+							<div class="<?php echo $gridClass; ?> ">
+								<div>
 									<div class="box">
-										<?php echo get_field("sub_box_".$i, $id); ?>
+										<?php echo get_field("box_".$i, $id); ?>
 										<div class="clear"></div>
 									</div>
-								<?php } ?>
+								</div>
 							</div>
-						</div>
-					<?php
+						<?php
+						}
 					}
-				}
-			?>
+				?>
+				<div class="clear"></div>
+			</div>
 			<div class="clear"></div>
+			<div class="cols">
+				<?php
+					for($i=$start; $i<=$end; $i++){
+						if(get_field('box_'.$i, $id)){
+						?>
+							<div class="<?php echo $gridClass; ?> ">
+								<div>
+									<?php if(get_field('sub_box_'.$i, $id)){ ?>
+										<div class="subBox">
+											<?php echo get_field("sub_box_".$i, $id); ?>
+											<div class="clear"></div>
+										</div>
+									<?php } ?>
+								</div>
+							</div>
+						<?php
+						}
+					}
+				?>
+				<div class="clear"></div>
+			</div>
 		</div>
 	<?php
  }
@@ -55,7 +73,7 @@
 				<div class="clear"></div>
 			</div>
 			<?php if(get_field('sub_box_'.$i, $id)){ ?>
-				<div class="box">
+				<div class="subBox">
 					<?php echo get_field("sub_box_".$i, $id); ?>
 					<div class="clear"></div>
 				</div>
@@ -92,16 +110,6 @@ add_filter( 'tiny_mce_before_init', 'tuts_mce_before_init' );
 function tuts_mce_before_init( $settings ) {  
 	$style_formats = array(  
 		array(  
-			'title' => 'Large Statistic',
-			'inline' => 'span',
-			'classes' => 'bigStat', 
-		),
-		array(  
-			'title' => 'Small Statistic',
-			'inline' => 'span',
-			'classes' => 'smallStat', 
-		),
-		array(  
 			'title' => 'Click Here Link',
 			'inline' => 'span',
 			'classes' => 'clickHere', 
@@ -109,6 +117,30 @@ function tuts_mce_before_init( $settings ) {
 		array(  
 			'title' => 'Standard Header',
 			'block ' => 'h4',
+		),
+		array(  
+			'title' => 'Statistic Info',
+			'inline' => 'span',
+			'classes' => 'infoStat', 
+		),
+		array(  
+			'title' => 'Statistic Large',
+			'inline' => 'span',
+			'classes' => 'bigStat', 
+		),
+		array(  
+			'title' => 'Statistic Percent',
+			'inline' => 'span',
+			'classes' => 'percentStat', 
+		),
+		array(  
+			'title' => 'Statistic Small',
+			'inline' => 'span',
+			'classes' => 'smallStat', 
+		),
+		array(  
+			'title' => 'Trade Calendar',
+			'classes' => 'tradeCalendar', 
 		),
 	);  
 

@@ -1,3 +1,6 @@
+.flex_10, .flex_20, .flex_25, .flex_33, .flex_40, .flex_50, .flex_60, .flex_66, .flex_75, .flex_80, .flex_90, .flex_100{
+	min-height:1px;
+}
 .flex_10 {
 	width: 10%;
 	float: left;

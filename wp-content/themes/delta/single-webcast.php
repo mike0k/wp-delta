@@ -2,6 +2,8 @@
 /*
 Template Name Posts: Webcast
 */
+$postId =  get_the_ID();
+header('Location: http://demo.deltaeconomics.com/category/webcasts/#post-'.$postId);
 ?>
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -24,9 +26,7 @@ Template Name Posts: Webcast
 									}
 								}
 							?>
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-								<?php echo $title; ?>
-							</a>
+							<?php echo $title; ?>
 						</h4>
 						<div class="entry">
 							<?php the_content(); ?>

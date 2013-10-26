@@ -5,15 +5,19 @@
 	$args = array( 'category'=>4, 'posts_per_page' => 6);
 	$posts = get_posts($args); 
 ?>
+<?php 
+if(category_description()){
+				?>
 <div class="flex_100">
 	<div class="box">
-		 <?php 
-			if(category_description()){
+		 <?php
 				echo category_description();
-			}
-		?> 
+		?>
 	</div>
 </div>
+<?php
+			}
+		?> 
 <div class="flex_100">
 	<div class="flex_25">
 		<ul class="qtfMenu">
@@ -28,7 +32,7 @@
 								<br />
 								<?php the_field('date', $post->ID);	?>
 								<br />
-								<span class="readMore">Read More | <span class="clickHere">Click here</span></span>
+								<span class="readMore">Read more | <span class="clickHere">Click here</span></span>
 							</a>
 						</li>
 						<?php
@@ -38,7 +42,7 @@
 		</ul>	
 		<div class="box">
 			<h4>Looking for more?</h4>
-			<p>For archived content please contact our analytical team.</p>
+			<p class="bottomSpacing">For archived content please contact our analytical team.</p>
 			<a href="<?php echo get_permalink(14); ?>">Contact us | <span class="clickHere">Click here</span></a>
 		</div>
 	</div>
@@ -54,26 +58,46 @@
 								<?php the_title();	?>
 								<span style="font-family:'light'; font-weight:normal;">
 								<?php 
-									if(the_field('sub_header', $post->ID)){
+									if(get_field('sub_header', $post->ID)){
 										echo ' | '.get_field('sub_header', $post->ID);
 									}
 								?>
 								<?php 
-									if(the_field('date', $post->ID)){
+									if(get_field('date', $post->ID)){
 										echo ' | '.get_field('date', $post->ID);
 									}
 								?>
 								</span>
 								<?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
+                                <?php /*?><div class="printfriendly pf-alignright">
+                                <?php
+                                    if(get_field('pdf_file', $post->ID)){
+                                ?>
+                                    <a rel="nofollow" target="_blank" href="<?=get_field('pdf_file', $post->ID)?>">
+                                        <img alt="Open PDF" src="/wp-content/themes/delta/images/pdfIcon.jpg">
+                                    </a>
+                                    <a rel="nofollow" target="_blank" href="mailto:?subject=Delta Economics: <?= the_title(); ?>&body=%0A%0A%0A%0A<?=get_field('pdf_file', $post->ID)?>">
+                                        <img alt="Email PDF" src="/wp-content/themes/delta/images/emailIcon.jpg">
+                                    </a>
+                                 <?php
+                                    }
+                                 ?>
+                                </div><?php */?>
 							</h4>
 							
 							 <?php the_content(); ?>
 						</div>
-							<?php 
-								print_columns('flex_100', 1, 1, $post->ID);
-								print_columns('flex_50', 2, 3, $post->ID);
-								print_columns('flex_100', 4, 4, $post->ID);
-							?>
+							<?php print_columns('flex_100', 1, 1, $post->ID); ?>
+							<div class="cols">
+								<div class="flex_66">
+									<?php print_box(2, $post->ID); ?>
+								</div>
+								<div class="flex_33">
+									<?php print_box(3, $post->ID); ?>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<?php print_columns('flex_100', 4, 4, $post->ID); ?>
 						
 						<?php
 						break;

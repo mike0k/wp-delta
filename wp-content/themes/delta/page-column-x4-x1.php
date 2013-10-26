@@ -12,7 +12,7 @@ Template Name: Columns: x4 – x1
 					print_head_image();
 					the_content(); 
 					print_columns('flex_25', 1, 4);
-					print_columns('flex_100', 5, 5);
+					print_box(5);
 					wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); 
 				?>
 			</div>

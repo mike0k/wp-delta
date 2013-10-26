@@ -1,12 +1,11 @@
-
-# BEGIN WordPress
+# BEGIN WordPres
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /delta/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /delta/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress

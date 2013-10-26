@@ -12,12 +12,18 @@ Template Name: Contact Page
 					print_head_image();
 					the_content(); 
 					print_columns('flex_25', 1, 4);
-					
+					?>
+					<div class="box">
+						<div class="strike"></div>
+					</div>
+					<?
 					if(get_field('map_coodinates')){
 						$coords = get_field('map_coodinates');
+						$mapInfo = get_field('map_marker_info');
 						?>
 							<script>
 								var map;
+								var mapInfo = '<?php echo str_replace("#", "<br>", $mapInfo); ?>';
 								function initialize() {
 									var mapOptions = {
 										zoom: 16,
@@ -29,9 +35,30 @@ Template Name: Contact Page
 										mapTypeId: google.maps.MapTypeId.ROADMAP
 									};
 									map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
+									
+									
+									var contentString = "<div class='gMapContent' style='overflow: hidden;'>"+mapInfo+"</div>";
+
+ 
+									var infowindow = new google.maps.InfoWindow({
+										content: contentString
+									});
+
+									console.log(contentString);
+									
+									var infowindow = new google.maps.InfoWindow({
+										content: contentString
+									});
+
+									
 									var marker = new google.maps.Marker({
-									position: mapOptions['center'],
-									map: map,
+										position: mapOptions['center'],
+										title: 'Delta Economics',
+										map: map,
+									});
+									
+									google.maps.event.addListener(marker, 'click', function() {
+									  infowindow.open(map,marker);
 									});
 								}
 								google.maps.event.addDomListener(window, 'load', initialize);

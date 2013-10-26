@@ -36,14 +36,32 @@ Template Name: Home Page
 						</div>
 					</div>
 					<script>
-						jQuery('.slides').cycle();
+						jQuery(document).ready(function($) { 
+							$('.slides').cycle({ 
+								fx: 'scrollLeft' 
+							}); 
+						})
 					</script>
-				<?php } ?>
+				<?php }else{
+					print_head_image();
+				}?>
 				<?php the_content(); 	?>
 				
 				<div class="cols">
 					<div class="flex_50">
-						<?php print_box(1); ?>
+						<?php if(get_field('box_1', $postId)){ ?>
+							<div class="box homeBox1">
+								<?php echo get_field("box_1", $postId); ?>
+								<div class="clear"></div>
+							</div>
+							<?php if(get_field('sub_box_1', $postId)){ ?>
+								<div class="subBox">
+									<?php echo get_field("sub_box_1", $postId); ?>
+									<div class="clear"></div>
+								</div>
+							<?php 
+							}
+						} ?>
 					</div>
 					<div class="flex_50">
 						<div class="box">
@@ -67,10 +85,22 @@ Template Name: Home Page
 				
 				<div class="cols">
 					<div class="flex_75">
-						<?php print_box(6,$postId); ?>
+						<?php if(get_field('box_6', $postId)){ ?>
+							<div class="box homeBox6">
+								<?php echo get_field("box_6", $postId); ?>
+								<div class="clear"></div>
+							</div>
+							<?php if(get_field('sub_box_6', $postId)){ ?>
+								<div class="subBox">
+									<?php echo get_field("sub_box_6", $postId); ?>
+									<div class="clear"></div>
+								</div>
+							<?php 
+							}
+						} ?>
 					</div>
 					<div class="flex_25">
-						<div class="box">
+						<div class="boxAlign">
 							<h4>Weekly Trade Views</h4>
 						</div>
 						<?php 
