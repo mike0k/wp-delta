@@ -3863,3 +3863,507 @@ Stack trace:
 REQUEST_URI=/delta/app/img/core/main-bg-noise.png
 HTTP_REFERER=http://localhost/delta/app/css/core.css
 ---
+2013/10/28 18:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:53:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:53:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:54:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:54:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:57:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:57:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:59:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:59:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 18:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 18:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "something/index".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('something/index')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/something
+HTTP_REFERER=http://localhost/delta/app/
+---
+2013/10/28 19:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:03:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:03:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---
+2013/10/28 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/core/main-bg-noise.png".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('img/core/main-b...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/img/core/main-bg-noise.png
+HTTP_REFERER=http://localhost/delta/app/css/core.css
+---
+2013/10/28 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bullet.gif".' in D:\Work\localhost\delta\app\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Work\localhost\delta\app\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bullet.g...')
+#1 D:\Work\localhost\delta\app\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Work\localhost\delta\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/delta/app/images/bullet.gif
+HTTP_REFERER=http://localhost/delta/app/css/typography.css
+---

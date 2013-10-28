@@ -20,116 +20,119 @@
 */
 
 @font-face {
-	font-family: 'Hai';
-	src: url('fonts/Lato-Hai.eot');
-	src: url('fonts/Lato-Hai.eot?#iefix') format('eot'),
-	url('fonts/Lato-Hai.svg') format('svg'),
-	url('fonts/Lato-Hai.woff') format('woff'),
-	url('fonts/Lato-Hai.ttf') format('truetype');
+	font-family: 'light';
+	src: url('fonts/HelveticaLTStd-Light.eot');
+	src: url('fonts/HelveticaLTStd-Light.eot?#iefix') format('eot'),
+	url('fonts/HelveticaLTStd-Light.svg') format('svg'),
+	url('fonts/HelveticaLTStd-Light.woff') format('woff'),
+	url('fonts/HelveticaLTStd-Light.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Lig';
-	src: url('fonts/Lato-Lig.eot');
-	src: url('fonts/Lato-Lig.eot?#iefix') format('eot'),
-	url('fonts/Lato-Lig.svg') format('svg'),
-	url('fonts/Lato-Lig.woff') format('woff'),
-	url('fonts/Lato-Lig.ttf') format('truetype');
+	font-family: 'bold';
+	src: url('fonts/HelveticaLTStd-Bold.eot');
+	src: url('fonts/HelveticaLTStd-Bold.eot?#iefix') format('eot'),
+	url('fonts/HelveticaLTStd-Bold.svg') format('svg'),
+	url('fonts/HelveticaLTStd-Bold.woff') format('woff'),
+	url('fonts/HelveticaLTStd-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Reg';
-	src: url('fonts/Lato-Reg.eot');
-	src: url('fonts/Lato-Reg.eot?#iefix') format('eot'),
-	url('fonts/Lato-Reg.svg') format('svg'),
-	url('fonts/Lato-Reg.woff') format('woff'),
-	url('fonts/Lato-Reg.ttf') format('truetype');
+	font-family: 'roman';
+	src: url('fonts/HelveticaLTStd-Roman.eot');
+	src: url('fonts/HelveticaLTStd-Roman.eot?#iefix') format('eot'),
+	url('fonts/HelveticaLTStd-Roman.svg') format('svg'),
+	url('fonts/HelveticaLTStd-Roman.woff') format('woff'),
+	url('fonts/HelveticaLTStd-Roman.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'RegIta';
-	src: url('fonts/Lato-RegIta.eot');
-	src: url('fonts/Lato-RegIta.eot?#iefix') format('eot'),
-	url('fonts/Lato-RegIta.svg') format('svg'),
-	url('fonts/Lato-RegIta.woff') format('woff'),
-	url('fonts/Lato-RegIta.ttf') format('truetype');
+	font-family: 'black';
+	src: url('fonts/HelveticaLTStd-Bik.eot');
+	src: url('fonts/HelveticaLTStd-Bik.eot?#iefix') format('eot'),
+	url('fonts/HelveticaLTStd-Bik.svg') format('svg'),
+	url('fonts/HelveticaLTStd-Bik.woff') format('woff'),
+	url('fonts/HelveticaLTStd-Bik.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'Bol';
-	src: url('fonts/Lato-Bol.eot');
-	src: url('fonts/Lato-Bol.eot?#iefix') format('eot'),
-	url('fonts/Lato-Bol.svg') format('svg'),
-	url('fonts/Lato-Bol.woff') format('woff'),
-	url('fonts/Lato-Bol.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Bla';
-	src: url('fonts/Lato-Bla.eot');
-	src: url('fonts/Lato-Bla.eot?#iefix') format('eot'),
-	url('fonts/Lato-Bla.svg') format('svg'),
-	url('fonts/Lato-Bla.woff') format('woff'),
-	url('fonts/Lato-Bla.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'light';
+		src: url('fonts/HelveticaLTStd-Light.svg') format('svg');
+	}
+	@font-face {
+		font-family: 'bold';
+		src: url('fonts/HelveticaLTStd-Bold.svg') format('svg');
+	}
+	@font-face {
+		font-family: 'roman';
+		src: url('fonts/HelveticaLTStd-Roman.svg') format('svg');
+	}
+	@font-face {
+		font-family: 'black';
+		src: url('fonts/HelveticaLTStd-Bik.svg') format('svg');
+	}
 }
 
 
 
-body { 
-	font-size: 68.8%;
-	line-height: 1.5;
-	font-family: 'Reg', sans-serif;
+body{ 
+	font-size: 13.6px;
+	line-height: 18px;
+	font-family: 'light', Helvetica, sans-serif;
+	color:#4b4b4b;
+	-webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+	-webkit-font-smoothing: antialiased; 
+	-moz-font-smoothing: antialiased; 
+	font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6{
 	margin:0;
-	padding:0;
-	padding:0.2% 0;
+	padding:10px 0 20px 0;
+	font-weight:normal;
+	font-family: 'bold', Helvetica, sans-serif;
+	color:#0b1e60;
 }
 
 	h1 {
-	  font-size: 4em;
-	  line-height: 1.4em;
-	  font-family: 'Lig';
+	  font-size: 22px;
+	  line-height: 22px;
 	}
 
 	h2 {
-	  font-size: 1.3em;
-	  line-height: 1.1em;
-	  font-family: 'Bol';
+	  font-size: 18px;
+	  line-height: 18px;
 	}
 
 	h3 {
-	  font-size: 1.2em;
-	  line-height: 1em;
-	  font-family: 'Bol';
+	  font-size: 16px;
+	  line-height: 16px;
 	}
 
 	h4 {
-	  font-size: 1.5em;
-	  line-height: 2em;
+	  font-size: 14px;
+	  line-height: 14px;
 	}
 
 	h5 {
-	  font-size: 1.2857142857142858em;
-	  line-height: 2.3333333333333335em;
+	  font-size: 12px;
+	  line-height: 12px;
 	}
 
 	h6 {
-	  font-size: 1.1428571428571428em;
-	  line-height: 2.625em;
+	  font-size: 10px;
+	  line-height: 10px;
 	}
 
 	p {
@@ -144,39 +147,29 @@ h1, h2, h3, h4, h5, h6, p{
 
 a{
 	text-decoration:none;
-	font-family: 'Bol';
-	color:#2C539E;
-	font-size: 1.2em;
+	font-family: 'roman', Helvetica, sans-serif;
+	color:#0b1e60;
+	font-size: 14px;
 	outline:0 !important;
 }
 	a:hover{
 		
 	}
-	a.largeBtn{
-		display:inline-block;
-		height:30px;
-		padding-top:1px;
-		background-color:#1DC5E8;
-		box-shadow:0 1px 0 rgba(255, 255, 255, 0) inset, 0 -2px 0 #0085A1 inset, 0 0 5px #18A5C2 inset, 0 2px 4px transparent;
-		color:#FFFFFF;
-		font-weight:bold;
-		line-height:30px;
-		text-align:center;
-		width:110px;
-		border:0 none;
-		border-radius:3px 3px 3px 3px;
-		text-shadow:0 -1px rgba(0, 0, 0, 0.1);
-		transition:background 0.2s ease-in 0s, color 0.2s ease-in 0s;
-	}
 
-	a.largeBtn:hover{
-		color:#FFFFFF;
-	}
-
-ul{
+ul, ol{
+	margin:0;
 	padding:0;
+	padding:10px 0;
 	list-style-position:inside;
 }
+
+	ul{
+		list-style-image: url("../images/bullet.gif");
+	}
+	
+		.box li{
+			padding: 10px 0 10px 30px;
+		}
 
 input[type=text], input[type=password], select, input[type=submit], button, textarea{
 	font-family:'Reg';
@@ -209,7 +202,7 @@ input[type=text], input[type=password], select, input[type=submit], button, text
 		margin :0 5px;
 		padding:0;
 		color:#FFFFFF;
-		font-family: 'Bol';
+		font-family: 'Bold';
 		font-size: 14px;
 		font-weight:normal;
 		line-height:30px;
@@ -251,7 +244,7 @@ label{
 	font-size:1.2em;
 	font-weight:normal;
 	display:inline-block;
-	font-family: 'Bol';
+	font-family: 'Bold';
 	width:29.875%;
 }
 

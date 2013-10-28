@@ -6,9 +6,7 @@
 		<?php $this->renderPartial('//layouts/main/header'); ?>
 		<div class="content">
 			<div class="grid-90 center">
-				<div class="boxWhite">
-					<?php echo $content; ?>
-				</div>
+				<?php echo $content; ?>
 			<div class="clearfix"></div>
 			</div>
 			<div class="clearfix"></div>
