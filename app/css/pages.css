@@ -1,0 +1,113 @@
+/*
+=================================================
+	Home
+=================================================
+*/
+
+.home{
+	padding:10% 0;
+	background: url(../img/pages/lp2-bg_home_50.jpg) no-repeat;
+	color:#ffffff;
+}
+
+	.home h1{
+		font-size:2.5em;
+		padding:1.8% 0;
+		font-family:'Lig';
+		text-shadow: 0 0 0.1em #000, 0 0 0.1em #000;
+	}
+	
+	.home ul{
+		margin:0 0 5% 0;
+	}
+	
+		.home ul li{
+			font-size:1.5em;
+			padding:0.2% 0;
+		}
+	
+	.home a{
+		text-align:center;
+		color:#ffffff;
+	}
+	
+		.home a.largeBtn{
+			padding:1% 20%;
+			height:auto;
+			background:none repeat scroll 0 0 #FF7400;
+			box-shadow:0 1px 0 rgba(255, 255, 255, 0) inset, 0 -2px 0 #FF7400 inset, 0 0 5px #FF7400 inset, 0 2px 4px transparent;
+			line-height:1.2em;
+			font-family: Reg;
+			font-weight:bold;
+			font-size:2em;
+		}
+		
+			.home a.largeBtn span{
+				font-size:0.6em;
+				display:block;
+				letter-spacing:1px;
+			}
+
+
+/*
+=================================================
+	Search
+=================================================
+*/
+.search{
+	
+}
+	.search .listing{
+		background-color:#f7f7f7;
+	}
+	
+		.search .listing:hover{
+			background-color:#f5f5f5;
+		}
+		
+		.search .listing p{
+			margin:0;
+		}
+	
+		.search .listing h3 a{
+			font-family: 'Lig';
+			font-size:1.8em;
+		}
+		
+		.search .listing .price{
+			font-size:2em;
+			font-family: 'Bol';
+			font-weight:bold;
+			color:#B9B9B9;
+		}
+			.search .listing:hover .price{
+				color:#2C539E;
+			}
+		
+		.search .listing .info{
+			padding:3% 0 0 0;
+			color:#898989;
+		}
+		
+			.search .listing .info .proposalBtn{
+				opacity: 0;
+				transition: opacity .15s ease-in-out;
+				-moz-transition: opacity .15s ease-in-out;
+				-webkit-transition: opacity .15s ease-in-out;
+			}
+			
+				.search .listing:hover .info .proposalBtn{
+					opacity: 1;
+				}
+		
+			.search .listing:hover .info{
+				color:#454545;
+			}
+		
+			.search .listing .info a.name{
+				font-weight:bold;
+				font-family: 'Lig';
+				color:#898989;
+			}
+		
+		

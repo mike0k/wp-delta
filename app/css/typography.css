@@ -1,0 +1,317 @@
+/*
+=================================================
+	Basic text sizing
+=================================================
+	Set your main font size for paragraph
+
+	Reference
+	62.5%  => 10px
+	68.8%  => 11px
+	75%    => 12px
+	81.3%  => 13px
+	87.5%  => 14px
+	100%   => 16px
+	112.5% => 18px
+	125%   => 20px
+=================================================
+	Proportions based on typographic scale
+	14, 16, 18, 21, 24, 32, 48
+=================================================
+*/
+
+@font-face {
+	font-family: 'Hai';
+	src: url('fonts/Lato-Hai.eot');
+	src: url('fonts/Lato-Hai.eot?#iefix') format('eot'),
+	url('fonts/Lato-Hai.svg') format('svg'),
+	url('fonts/Lato-Hai.woff') format('woff'),
+	url('fonts/Lato-Hai.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lig';
+	src: url('fonts/Lato-Lig.eot');
+	src: url('fonts/Lato-Lig.eot?#iefix') format('eot'),
+	url('fonts/Lato-Lig.svg') format('svg'),
+	url('fonts/Lato-Lig.woff') format('woff'),
+	url('fonts/Lato-Lig.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Reg';
+	src: url('fonts/Lato-Reg.eot');
+	src: url('fonts/Lato-Reg.eot?#iefix') format('eot'),
+	url('fonts/Lato-Reg.svg') format('svg'),
+	url('fonts/Lato-Reg.woff') format('woff'),
+	url('fonts/Lato-Reg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RegIta';
+	src: url('fonts/Lato-RegIta.eot');
+	src: url('fonts/Lato-RegIta.eot?#iefix') format('eot'),
+	url('fonts/Lato-RegIta.svg') format('svg'),
+	url('fonts/Lato-RegIta.woff') format('woff'),
+	url('fonts/Lato-RegIta.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bol';
+	src: url('fonts/Lato-Bol.eot');
+	src: url('fonts/Lato-Bol.eot?#iefix') format('eot'),
+	url('fonts/Lato-Bol.svg') format('svg'),
+	url('fonts/Lato-Bol.woff') format('woff'),
+	url('fonts/Lato-Bol.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bla';
+	src: url('fonts/Lato-Bla.eot');
+	src: url('fonts/Lato-Bla.eot?#iefix') format('eot'),
+	url('fonts/Lato-Bla.svg') format('svg'),
+	url('fonts/Lato-Bla.woff') format('woff'),
+	url('fonts/Lato-Bla.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body { 
+	font-size: 68.8%;
+	line-height: 1.5;
+	font-family: 'Reg', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin:0;
+	padding:0;
+	padding:0.2% 0;
+}
+
+	h1 {
+	  font-size: 4em;
+	  line-height: 1.4em;
+	  font-family: 'Lig';
+	}
+
+	h2 {
+	  font-size: 1.3em;
+	  line-height: 1.1em;
+	  font-family: 'Bol';
+	}
+
+	h3 {
+	  font-size: 1.2em;
+	  line-height: 1em;
+	  font-family: 'Bol';
+	}
+
+	h4 {
+	  font-size: 1.5em;
+	  line-height: 2em;
+	}
+
+	h5 {
+	  font-size: 1.2857142857142858em;
+	  line-height: 2.3333333333333335em;
+	}
+
+	h6 {
+	  font-size: 1.1428571428571428em;
+	  line-height: 2.625em;
+	}
+
+	p {
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		hyphens: auto;
+		margin-bottom: 1.5em;
+		padding:0.5% 0;
+		text-align:justify;
+		font-size: 1em;
+	}
+
+a{
+	text-decoration:none;
+	font-family: 'Bol';
+	color:#2C539E;
+	font-size: 1.2em;
+	outline:0 !important;
+}
+	a:hover{
+		
+	}
+	a.largeBtn{
+		display:inline-block;
+		height:30px;
+		padding-top:1px;
+		background-color:#1DC5E8;
+		box-shadow:0 1px 0 rgba(255, 255, 255, 0) inset, 0 -2px 0 #0085A1 inset, 0 0 5px #18A5C2 inset, 0 2px 4px transparent;
+		color:#FFFFFF;
+		font-weight:bold;
+		line-height:30px;
+		text-align:center;
+		width:110px;
+		border:0 none;
+		border-radius:3px 3px 3px 3px;
+		text-shadow:0 -1px rgba(0, 0, 0, 0.1);
+		transition:background 0.2s ease-in 0s, color 0.2s ease-in 0s;
+	}
+
+	a.largeBtn:hover{
+		color:#FFFFFF;
+	}
+
+ul{
+	padding:0;
+	list-style-position:inside;
+}
+
+input[type=text], input[type=password], select, input[type=submit], button, textarea{
+	font-family:'Reg';
+	font-size: 11px;
+	color:#888888;
+	border-radius:2px;
+	border:1px solid #cdcdcd;
+}
+
+	input[type=text]:hover, input[type=password]:hover, select:hover, textarea:hover{
+		color:#333333;
+		box-shadow: 0 0 3px #00A3FF;
+	}
+	
+	input[type=text], input[type=password], textarea{
+		padding:0.5% 1%;
+		margin: 0.5%;
+	}
+	
+	input[type=text]:focus, input[type=password]:focus, select:focus, textarea:focus{
+		color:#111111;
+		box-shadow: 0 0 3px #254A86;
+		font-size: 13px;
+	}
+	
+	input[type=submit], button, .button, .buttons a{
+		display:inline-block;
+		height:30px;
+		width:110px;
+		margin :0 5px;
+		padding:0;
+		color:#FFFFFF;
+		font-family: 'Bol';
+		font-size: 14px;
+		font-weight:normal;
+		line-height:30px;
+		text-align:center;
+		border:0 none;
+		border-radius:3px 3px 3px 3px;
+		transition:background 0.2s ease-in 0s, color 0.2s ease-in 0s;
+		background-color: #363636;
+		background-image: linear-gradient(to bottom, #444444, #222222);
+		background-repeat: repeat-x;
+		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		float:right;
+	}
+
+		input[type=submit]:hover, button:hover, .button:hover, .buttons a:hover{
+			box-shadow: 0 0 5px #00A3FF;
+			border-color: #0C1F3E;
+			background-color: #222222;
+			color:#FFFFFF;
+			text-decoration:none;
+		}
+		
+		.btn-large{
+			padding: 5px 19px 11px 19px;
+		}
+
+	select{
+		padding:0.5% 3px 0.5% 1%;
+		margin: 0.5% 1.5% 0.5% 0.5%;
+	}
+	
+input[type=checkbox]{
+	position:relative;
+	top:3px;
+}
+
+label{
+	font-size:1.2em;
+	font-weight:normal;
+	display:inline-block;
+	font-family: 'Bol';
+	width:29.875%;
+}
+
+iframe{
+	width:100%;
+	border-radius:5px;
+	margin:0 !important;
+	border:none !important;
+}
+
+.row{
+	padding:3px 0;
+	margin:0;
+}
+
+	.row input[type=text], .row input[type=password], .row select, .row textarea{
+		display:inline-block;
+		width:56%;
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+		padding:4px 1%;
+		margin:4px 0 4px 2%;
+	}
+		.row input[type=text]:focus, .row input[type=password]:focus, .row select:focus, .row textarea:focus{
+			
+		}
+
+	.row label{
+		display:inline-block;
+		width:27%;
+		padding: 0 0 0 3%;
+	}
+	
+	.row label.label-50{
+		display:inline-block;
+		width:50%;
+	}
+	
+input.fieldCol2{
+	width:46% !important;
+	display:inline-block;
+}
+textarea.textareaMedium{
+	display:block;
+	width:96%;
+}
+textarea.textarealarge{
+	display:block;
+	width:96%;
+	height:250px;
+}
+
+.textCenter{
+	text-align:center;
+}
+.textLeft{
+	text-align:left;
+}
+.textRight{
+	text-align:right;
+}

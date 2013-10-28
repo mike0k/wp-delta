@@ -1,0 +1,9 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	select{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+		select:focus{
+			font-size: 11px;
+		}
+}
