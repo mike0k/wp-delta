@@ -11,8 +11,8 @@ Template Name: Columns: x3 – x3
 				<?php 
 					print_head_image();
 					the_content(); 
-					print_columns('flex_50', 1, 3);
-					print_columns('flex_25', 4, 6);
+					print_columns('flex_33', 1, 3);
+					print_columns('flex_33', 4, 6);
 					wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); 
 				?>
 			</div>

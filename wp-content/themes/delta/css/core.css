@@ -448,6 +448,61 @@ table.sortable tr{
 	padding-right: 0px;
 }
 
+/* Buy Package Page*/
+/* ---------------------------------------------------------- */
+
+.buyAnalysis{
+	padding-top:15px;
+}
+
+.buyTag{
+	margin:15px 0;
+	cursor:pointer;
+}
+
+.buyTag .optionName{
+	font-family: bold;
+	font-size:40px;
+	line-height:40px;
+	color:#737373;
+	display:block;
+}
+
+	.optionSelected .optionName{
+		color:#0b1e60;
+	}
+
+	.optionIncluded .optionName{
+		color:#c3c3c3;
+	}
+		
+.buyTag .optionBox{
+	background: url("images/option-deselected-dark-grey.png");
+}
+
+.buyContent{
+	display:none;
+}
+
+	.buyContent .price{
+		font-family: bold;
+		font-size:40px;
+		line-height:40px;
+		color:#0b1e60;
+		text-align:center;
+		display:block;
+		padding-top:30px;
+	}
+
+		.buyContent .price p{
+			display:inline;
+		}
+
+		.buyContent .price .vat{
+			font-size:27px;
+		}
+
+
 /* Shitty IE10 Fixes*/
 /* ---------------------------------------------------------- */
 .ie10 .qtfPosts .featuredImage{

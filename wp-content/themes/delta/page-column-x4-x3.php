@@ -14,53 +14,73 @@ Template Name: Columns: x4 – x3
 					print_columns('flex_25', 1, 4);
 				?>
 				<div class="clear"></div>
-				<div class="cols">
-					<div class="flex_50">
-						<?php if(get_field('box_5')){ ?>
-							<div class="box">
-								<?php echo get_field("box_5"); ?>
-								<div class="clear"></div>
-							</div>
-							<?php if(get_field('sub_box_5')){ ?>
-								<div class="subBox">
-									<?php echo get_field("sub_box_5"); ?>
+				<div class="colLen3">
+					<div class="cols">
+						<div class="flex_50">
+							<?php if(get_field('box_5')){ ?>
+								<div class="box minBoxHeight">
+									<?php echo get_field("box_5"); ?>
 									<div class="clear"></div>
 								</div>
-							<?php 
-							}
-						} ?>
-					</div>
-					<div class="flex_25">
-						<?php if(get_field('box_6')){ ?>
-							<div class="box">
-								<?php echo get_field("box_6"); ?>
-								<div class="clear"></div>
-							</div>
-							<?php if(get_field('sub_box_6')){ ?>
-								<div class="subBox">
-									<?php echo get_field("sub_box_6"); ?>
+								<?php 
+							} ?>
+						</div>
+						<div class="flex_25">
+							<?php if(get_field('box_6')){ ?>
+								<div class="box minBoxHeight">
+									<?php echo get_field("box_6"); ?>
 									<div class="clear"></div>
 								</div>
-							<?php 
-							}
-						} ?>
-					</div>
-					<div class="flex_25">
-						<?php if(get_field('box_7')){ ?>
-							<div class="box">
-								<?php echo get_field("box_7"); ?>
-								<div class="clear"></div>
-							</div>
-							<?php if(get_field('sub_box_7')){ ?>
-								<div class="subBox">
-									<?php echo get_field("sub_box_7"); ?>
+								<?php 
+							} ?>
+						</div>
+						<div class="flex_25">
+							<?php if(get_field('box_7')){ ?>
+								<div class="box minBoxHeight">
+									<?php echo get_field("box_7"); ?>
 									<div class="clear"></div>
 								</div>
-							<?php 
-							}
-						} ?>
+								<?php 
+							} ?>
+						</div>
+						<div class="clear"></div>
 					</div>
-					<div class="clear"></div>
+					<div class="cols">
+						<div class="flex_50">
+							<?php if(get_field('box_5')){ ?>
+								<?php if(get_field('sub_box_5')){ ?>
+									<div class="subBox">
+										<?php echo get_field("sub_box_5"); ?>
+										<div class="clear"></div>
+									</div>
+								<?php 
+								}
+							} ?>
+						</div>
+						<div class="flex_25">
+							<?php if(get_field('box_6')){ ?>
+								<?php if(get_field('sub_box_6')){ ?>
+									<div class="subBox">
+										<?php echo get_field("sub_box_6"); ?>
+										<div class="clear"></div>
+									</div>
+								<?php 
+								}
+							} ?>
+						</div>
+						<div class="flex_25">
+							<?php if(get_field('box_7')){ ?>
+								<?php if(get_field('sub_box_7')){ ?>
+									<div class="subBox">
+										<?php echo get_field("sub_box_7"); ?>
+										<div class="clear"></div>
+									</div>
+								<?php 
+								}
+							} ?>
+						</div>
+						<div class="clear"></div>
+					</div>
 				</div>
 			</div>
 		</div>
